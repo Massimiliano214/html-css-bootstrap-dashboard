@@ -1,0 +1,35 @@
+header {
+    height: 70px;
+}
+
+main {
+    height: calc(100vh - 70px);
+    overflow: scroll;
+}
+
+.barra_ricerca {
+    height: calc(100vh - 70px);
+    background-color: black;
+    width: 90px;
+}
+
+/* inizio debug */
+
+.ms_bg1 {
+    background-color: brown;
+    height: 70px;
+    width: 100%;
+    border: dashed 5px white;
+}
+
+.ms_bg_fluid {
+    background-color: skyblue;
+    width: 100%;
+}
+
+/* fine debug */
+
+.main_container {
+    width: 50%;
+    background-color: red;
+}
