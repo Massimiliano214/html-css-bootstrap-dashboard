@@ -15,6 +15,9 @@ main {
     width: 90px;
 }
 
+.ms_header_col {
+    line-height: 70px;
+}
 /* inizio debug */
 
 .ms_bg1 {
