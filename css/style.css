@@ -39,7 +39,16 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-
+    .divider {
+        display: flex;
+        flex: wrap;
+    }
+    .ms_left_sec {
+        width: 65%;
+    }
+    .ms_right_sec {
+        width: 35%;
+    }
 }
 
 @media screen and (min-width: 992px) {
