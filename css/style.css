@@ -110,7 +110,7 @@ main {
 }
 
 .ms_offcanvas {
-    width: 500px;
+    min-width: 1000px;
 }
 .ms_span_d {
     font-weight: 600;
