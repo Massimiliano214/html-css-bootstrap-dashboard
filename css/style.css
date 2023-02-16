@@ -49,6 +49,10 @@ main {
 .ms_header_col {
     line-height: 70px;
 }
+
+.ms_ico_display {
+    display: none;
+}
 /* inizio debug */
 
 .ms_bg1 {
@@ -99,6 +103,9 @@ main {
     }
     .logo_exchange {
         width: 100px;
+    }
+    .ms_ico_display {
+        display: inline-block;
     }
     .ms_disp_none {
         display: inline-block;
