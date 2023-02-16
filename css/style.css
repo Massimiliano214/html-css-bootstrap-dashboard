@@ -123,7 +123,7 @@ th:first-child {
 }
 @media screen and (min-width: 576px) {
     .ms_table_display {
-        display: inline-block
+        display: inline-block;
     }
 }
 
@@ -158,7 +158,7 @@ th:first-child {
         width: 35%;
     }
     .ms_table_display_2 {
-        display: inline-block
+        display: inline-block;
     }
 }
 
