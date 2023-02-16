@@ -109,6 +109,9 @@ main {
     font-weight: 600;
 }
 
+.ms_offcanvas {
+    width: 500px;
+}
 .ms_span_d {
     font-weight: 600;
     display: inline-block;
