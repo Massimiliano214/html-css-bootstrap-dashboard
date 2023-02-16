@@ -15,7 +15,7 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-2 ms_header_col">
+                <div class="col-2 col-xl-1 ms_header_col">
                     <div class="logo_exchange">
                         <img class="img-fluid ms_logo_m" src="img/mobile-logo.png" alt="">
                         <img class="img-fluid ms_logo_b" src="img/logo.svg" alt="">
@@ -23,14 +23,29 @@
 
                 </div>
 
-                <div class="col-8">
-                    <input class=" form-control me-2 ms_search_bar mt-3" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
-
+                <div class="col-6 col-md-7">
+                    <div class="input-group mt-3 ">
+                        <span id="ms_bg_search_2" class="input-group-text border-end-0" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input id="ms_bg_search" type="text" class="form-control border-start-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                  
                 </div>
 
-                <div class="col-2 ms_header_col">
-
-                    <button class="btn btn-outline-success me-auto" type="submit">Search</button>
+                <div class="col-auto ms_header_col text-end">
+                    
+                    <div class="dropdown">
+                        <i class="fa-solid fa-list px-1"></i>
+                        <i class="fa-solid fa-question px-1"></i>
+                        <i class="fa-solid fa-ellipsis-vertical px-1"></i>
+                        <button class="btn btn-secondary dropdown-toggle bg-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell ms_color_bell"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item ms_width_list" href="#">Profilo</a></li>
+                            <li><a class="dropdown-item ms_width_list" href="#">Fatturazione</a></li>
+                            <li><a class="dropdown-item ms_width_list" href="#">Logout</a></li>
+                        </ul>
+                    </div>
 
                 </div>
             </div>
@@ -39,7 +54,7 @@
 
 
             
-            
+           
           
           
           
@@ -48,6 +63,9 @@
               <input class=" form-control me-2 ms_search_bar" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
+
+                                <input class=" form-control me-2 ms_search_bar mt-3" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+
              -->
             
         </div>
