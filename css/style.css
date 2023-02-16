@@ -2,6 +2,8 @@
     --ms_bg_search: #e4e4e5;
     --orange_bell: #fd8b2e;
     --aside-bg: #102336;
+    --bg-grey: #f7f7f7;
+    --table-ico: #000;
 }
 
 #ms_bg_search {
@@ -90,8 +92,39 @@ main {
 .ms_color_white {
     color: white;
 }
-@media screen and (min-width: 576px) {
 
+.ms_image {
+    width: 50px;
+    display: inline-block;
+}
+.ms_bg_grey {
+    background-color: var(--bg-grey);
+    font-weight: 600;
+}
+
+.ms_span_d {
+    font-weight: 600;
+    display: inline-block;
+}
+
+.ms_border {
+    border: 2px solid gray;
+    padding: 7px;
+    border-radius: 10px;
+    color: var(--table-ico);
+}
+
+th:first-child {
+    text-align: left;
+}
+
+.ms_table_display, .ms_table_display_2 {
+    display: none;
+}
+@media screen and (min-width: 576px) {
+    .ms_table_display {
+        display: inline-block
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -123,6 +156,9 @@ main {
     }
     .ms_right_sec {
         width: 35%;
+    }
+    .ms_table_display_2 {
+        display: inline-block
     }
 }
 
