@@ -135,6 +135,10 @@ th:first-child {
     text-align: left;
 }
 
+.ms_bg_hover:hover {
+    background-color: lightgray;
+    opacity: 0.8;
+}
 .ms_table_display, .ms_table_display_2 {
     display: none;
 }
