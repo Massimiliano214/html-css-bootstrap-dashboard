@@ -54,19 +54,25 @@ main {
 .ms_header_col {
     line-height: 70px;
 }
+.ms_max_height {
+    align-self: flex-start;
+}
 
+.ms_style_icon {
+    color: white;
+}
+
+.ms_style_icon:hover {
+    background-color: white;
+    color: black;
+}
 .ms_ico_display {
     display: none;
 }
 
-
-/* inizio debug */
-
-
-
-
-/* fine debug */
-
+.ms_hover_bg_w:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
 .ms_content {
     width: 100%;
     overflow: scroll;
@@ -110,7 +116,8 @@ main {
 }
 
 .ms_offcanvas {
-    min-width: 1000px;
+    min-width: 90vw;
+    max-width: 99vw;
 }
 .ms_span_d {
     font-weight: 600;
