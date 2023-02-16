@@ -4,6 +4,8 @@
     --aside-bg: #102336;
     --bg-grey: #f7f7f7;
     --table-ico: #000;
+    --ms-blue: #3a70e2;
+    --ms_bedge-bg: #2f5ab4;
 }
 
 #ms_bg_search {
@@ -56,13 +58,11 @@ main {
 .ms_ico_display {
     display: none;
 }
+
+
 /* inizio debug */
 
-.ms_bg1 {
-    background-color: brown;
-    height: 70px;
-    border: dashed 5px white;
-}
+
 
 
 /* fine debug */
@@ -70,6 +70,10 @@ main {
 .ms_content {
     width: 100%;
     overflow: scroll;
+}
+
+#main_header, .ms_btn {
+    background-color: var(--ms-blue);
 }
 .ms_logo_b {
     display: none;
@@ -80,7 +84,17 @@ main {
     display: none;
 }
 
+.ms_bedge {
+    background-color: var(--ms_bedge-bg);
+}
 
+.ms_bedge_size {
+    font-size: 15px;
+}
+
+.ms_bedge_display_iv {
+    display: none;
+}
 
 .ms_color_white {
     color: white;
@@ -118,6 +132,15 @@ th:first-child {
     .ms_table_display {
         display: table-cell;
     }
+    .ms_nuovo_s {
+        order: 3;
+    }
+    .ms_bedge_order {
+        order: 1;
+    }
+    .ms_count_studenti {
+        order: 2;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -131,6 +154,8 @@ th:first-child {
     .logo_exchange {
         width: 100px;
     }
+    
+    
     .ms_ico_display {
         display: inline-block;
     }
@@ -157,6 +182,12 @@ th:first-child {
 @media screen and (min-width: 992px) {
     .ms_table_display_2 {
         display: table-cell;
+    }
+    .ms_bedge_display_v {
+        display: none;
+    }
+    .ms_bedge_display_iv {
+        display: inline-block;
     }
 
 }

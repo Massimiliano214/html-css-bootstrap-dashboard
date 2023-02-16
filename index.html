@@ -90,20 +90,96 @@
         <div class="ms_content">
             <section id="main_header" class=" pb-3">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-md-4 ms_bg1">
-                            <h3></h3>
-                            <button></button>
+                    <div class="row d-flex">
+                        <div class="col-12 col-sm-4  d-flex py-3 ms_nuovo_s">
+                            <h5 class="text-white pe-3 pt-2">Nuovo Studente</h5>
+                            
+                            <a class="btn btn-primary ms_btn border-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-plus text-white border p-2 rounded"></i>
+                            </a>
+                            
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <form class="row g-3 needs-validation" novalidate>
+                                        <div class="col-md-4 position-relative">
+                                          <label for="validationTooltip01" class="form-label">First name</label>
+                                          <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                                          <div class="valid-tooltip">
+                                            Looks good!
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4 position-relative">
+                                          <label for="validationTooltip02" class="form-label">Last name</label>
+                                          <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                                          <div class="valid-tooltip">
+                                            Looks good!
+                                          </div>
+                                        </div>
+                                        <div class="col-md-4 position-relative">
+                                          <label for="validationTooltipUsername" class="form-label">Username</label>
+                                          <div class="input-group has-validation">
+                                            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                                            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                                            <div class="invalid-tooltip">
+                                              Please choose a unique and valid username.
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-6 position-relative">
+                                          <label for="validationTooltip03" class="form-label">City</label>
+                                          <input type="text" class="form-control" id="validationTooltip03" required>
+                                          <div class="invalid-tooltip">
+                                            Please provide a valid city.
+                                          </div>
+                                        </div>
+                                        <div class="col-md-3 position-relative">
+                                          <label for="validationTooltip04" class="form-label">State</label>
+                                          <select class="form-select" id="validationTooltip04" required>
+                                            <option selected disabled value="">Choose...</option>
+                                            <option>...</option>
+                                          </select>
+                                          <div class="invalid-tooltip">
+                                            Please select a valid state.
+                                          </div>
+                                        </div>
+                                        <div class="col-md-3 position-relative">
+                                          <label for="validationTooltip05" class="form-label">Zip</label>
+                                          <input type="text" class="form-control" id="validationTooltip05" required>
+                                          <div class="invalid-tooltip">
+                                            Please provide a valid zip.
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button class="btn btn-primary" type="submit">Submit form</button>
+                                        </div>
+                                      </form>
+                                </div>
+                              </div>
                         </div>
     
-                        <div class="col-12 col-md-4 ms_bg1">
-                            <h3></h3>
-                            <button></button>
+                        <div class="col-12 col-sm-4 py-3 ms_bedge_order">
+                            <div>
+                                <span class="text-white fs-2 pe-3">Boolean</span>
+                                <span class="badge p-2 ms_bedge fs-6">Piano blaze</span>
+                            </div>
+                            <div>
+                                <span class="badge p-2 ms_bedge ms_bedge_size">3 app</span>
+                                <span class="text-white fs-1">»</span>
+                                <span class="badge p-2 ms_bedge ms_bedge_size ms_bedge_display_v">+</span>
+                                <span class="badge p-2 ms_bedge ms_bedge_size ms_bedge_display_iv mb-2">Boolean mobile app</span> 
+                                <span class="badge p-2 ms_bedge ms_bedge_size ms_bedge_display_iv mb-2">Boolean web app</span> 
+                                <span class="badge p-2 ms_bedge ms_bedge_size ms_bedge_display_iv mb-2">Boolean blog app</span> 
+                            </div>
+                            
                         </div>
     
-                        <div class="col-12 col-md-4 ms_bg1">
-                            <h3></h3>
-                            <button></button>
+                        <div class="col-12 col-sm-4 py-3 ms_count_studenti">
+                            <h5 class="text-white">Studenti online negli ultimi 30 minuti</h5>
+                            <h3 class="text-white fw-bold">125</h3>
                         </div>
                     </div>
                 </div>            
