@@ -36,6 +36,7 @@ header {
 
 main {
     height: calc(100vh - 70px);
+    background-color: var(--bg-grey);
 }
 
 .logo_exchange {
@@ -63,15 +64,7 @@ main {
     border: dashed 5px white;
 }
 
-.ms_bg_fluid {
-    background-color: skyblue;
-    width: 100%;
-}
 
-#ms_faq {
-    height: 300px;
-    background-color: orange;
-}
 /* fine debug */
 
 .ms_content {
