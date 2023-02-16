@@ -1,6 +1,7 @@
 :root {
     --ms_bg_search: #e4e4e5;
     --orange_bell: #fd8b2e;
+    --aside-bg: #102336;
 }
 
 #ms_bg_search {
@@ -40,7 +41,8 @@ main {
 }
 .barra_ricerca {
     height: calc(100vh - 70px);
-    background-color: black;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--aside-bg);
     width: 90px;
 }
 
@@ -96,7 +98,7 @@ main {
         display: inline-block;
     }
     .logo_exchange {
-        width: 200px;
+        width: 100px;
     }
     .ms_disp_none {
         display: inline-block;
